@@ -57,31 +57,6 @@ header {
       letter-spacing: 2px;
       color: #fff;
     }
-    // nav {
-    //   ul {
-    //     margin: 0;
-    //     padding: 0;
-    //     display: flex;
-    //     li {
-    //       list-style: none;
-    //       margin: 0 60px;
-    //       &.btn {
-    //         a {
-    //           color: #fff;
-    //           font-weight: 600;
-    //           background: #23232a;
-    //           padding: 16px 24px;
-    //           border-radius: 10px;
-    //         }
-    //       }
-    //       a {
-    //         text-transform: capitalize;
-    //         text-decoration: none;
-    //         color: #fff;
-    //       }
-    //     }
-    //   }
-    // }
   }
 }
 
@@ -197,7 +172,7 @@ header {
 
 #projText {
   background-color: black;
-  opacity: 90%;
+  opacity: 0.9;
   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.9);
 }
 
