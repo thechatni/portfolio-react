@@ -63,14 +63,14 @@ const HTMLContent = ({
   useEffect(() => {
     inView && (document.body.style.background = bgColor);
 
-    inView && console.log(document.body.style.background);
+    // inView && console.log(document.body.style.background);
     if (!show && !email) {
       slide.current.style.display = "block";
     }
     inView &&
       !show &&
       slide.current.replaceChild(newElement, slide.current.children[0]);
-    inView && console.log(slide.current);
+    // inView && console.log(slide.current);
   }, [inView]);
 
   return (
@@ -78,7 +78,7 @@ const HTMLContent = ({
       <group position={[0, Yposition, 0]}>
         <mesh ref={ref} position={[0, top, 0]} scale={scale}>
           {show && <Model modelPath={modelPath} />}
-          {show && console.log("no model")}
+          {/* {show && console.log("no model")} */}
         </mesh>
         <Html portal={domContent} fullscreen>
           <div className="container" ref={refItem}>
@@ -170,7 +170,7 @@ function App() {
             bgColor={"#F93822FF"}
             scale={0.1}
             show={false}
-            inHtml={`<div data-aos='zoom-out-right' class='col-md-12 col-lg-8 col-sm-12 col-xs-12' id='projImage1'><img src='/nc1.PNG'></img><div class="overlay"></div><div class="button"><a href="https://github.com/thechatni/NetflixAndChill" target="_blank"> Github </a></div><div class="button2"><a href="http://netflixandchillreact.herokuapp.com/" target="_blank"> Website </a></div></div><div id='projText' class='col-md-12 col-lg-4 col-sm-12 col-xs-12' data-aos="zoom-in-left"><p id='title'><span id='heading' style="color:#F93822FF">Title:</span> Netflix & Chill</p><p><span id='heading' style="color:#F93822FF;">Description:</span> A web app that allows users to plan virtual Netflix streaming events. Users can search through Netflix titles based on rating, type, air date, and other filters. After choosing a title, the user can post details about the virtual streaming event which can be seen by other users.</p><p><span id='heading' style="color:#F93822FF;">Technologies used:</span> React JS with Hooks, REST API, MongoDB, Express, Node JS, uNoGS API, Bootstrap.</p></div>`}
+            inHtml={`<div data-aos='zoom-out-right' class='col-md-12 col-lg-8 col-sm-12 col-xs-12' id='projImage1'><img src='/nc1.PNG'></img><div class="overlay"></div><div class="button"><a href="https://github.com/thechatni/NetflixAndChill" target="_blank"> Github </a></div><div class="button2"><a href="https://netflixandchillreact.herokuapp.com/" target="_blank"> Website </a></div></div><div id='projText' class='col-md-12 col-lg-4 col-sm-12 col-xs-12' data-aos="zoom-in-left"><p id='title'><span id='heading' style="color:#F93822FF">Title:</span> Netflix & Chill</p><p><span id='heading' style="color:#F93822FF;">Description:</span> A web app that allows users to plan virtual Netflix streaming events. Users can search through Netflix titles based on rating, type, air date, and other filters. After choosing a title, the user can post details about the virtual streaming event which can be seen by other users.</p><p><span id='heading' style="color:#F93822FF;">Technologies used:</span> React JS with Hooks, REST API, MongoDB, Express, Node JS, uNoGS API, Bootstrap.</p></div>`}
             email={false}
             about={false}
             top={0}
