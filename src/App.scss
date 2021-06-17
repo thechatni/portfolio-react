@@ -187,11 +187,10 @@ header {
 }
 
 #projText p {
-  // white-space: nowrap;
   color: white;
   word-wrap: break-word;
   text-overflow: ellipsis;
-  // overflow: hidden;
+
   overflow: hidden;
   font-family: "Merriweather", serif;
 }
@@ -200,8 +199,6 @@ header {
   background-color: black;
   opacity: 90%;
   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.9);
-  // margin: 0 auto;
-  // height: 30vh;
 }
 
 #title {
@@ -214,7 +211,7 @@ header {
   height: 100%;
   text-align: center;
   justify-content: center;
-  // box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.9);
+
   border-radius: 20px;
 }
 
@@ -227,8 +224,6 @@ header {
   text-align: center;
   justify-content: center;
   border-radius: 20px;
-
-  // margin-left: 0.7vw;
 }
 
 #projImage1:hover .button {
@@ -244,7 +239,7 @@ header {
   width: 100%;
   text-align: center;
   justify-content: center;
-  // box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.9);
+
   border-radius: 20px;
 }
 
@@ -272,7 +267,6 @@ header {
   width: 100%;
   text-align: center;
   justify-content: center;
-  // box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.9);
   border-radius: 20px;
 }
 
@@ -305,21 +299,12 @@ header {
   transition: background 0.5s ease;
 }
 
-// img {
-//   position: absolute;
-//   width: 500px;
-//   height: 300px;
-//   left: 0;
-// }
-
 .button {
   position: absolute;
   width: 400px;
   left: 10%;
   top: 50%;
-  // text-align: center;
-  // margin: 0 auto;
-  // justify-content: center;
+
   opacity: 0;
   transition: opacity 0.35s ease;
 }
@@ -345,9 +330,7 @@ header {
   width: 400px;
   left: 40%;
   top: 50%;
-  // text-align: center;
-  // margin: 0 auto;
-  // justify-content: center;
+
   opacity: 0;
   transition: opacity 0.35s ease;
 }
@@ -367,13 +350,6 @@ header {
   font-weight: bold;
   font-size: 20px;
 }
-
-// form
-// * {
-//   margin: 0;
-//   padding: 0;
-//   border-size: border-box;
-// }
 
 .cards {
   width: 100%;
@@ -397,7 +373,7 @@ header {
 .cards .rows .cols {
   position: relative;
   width: 100%;
-  // margin: 30px 20px 40px 0;
+
   transition: 0.3s;
 }
 
@@ -413,7 +389,6 @@ header {
   text-align: center;
   margin: 0 auto;
   justify-content: center;
-  // margin-top: 30px;
 }
 .cards .rows .form-group input,
 .cards .rows .form-group textarea {
@@ -439,9 +414,7 @@ header {
 .cards .rows button {
   border: 5px solid rgba(0, 0, 0, 0.3);
   box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
-  // padding: 10px;
-  // height: 100%;
-  // width: 50%;
+
   cursor: pointer;
   outline: none;
   background: transparent;
@@ -523,18 +496,6 @@ header {
     display: none;
   }
 
-  // #projImage1 img {
-  //   width: 90vw;
-  //   height: 40vh;
-  // }
-  // #projImage2 img {
-  //   width: 90vw;
-  //   height: 40vh;
-  // }
-  // #projImage3 img {
-  //   width: 90vw;
-  //   height: 40vh;
-  // }
   .title {
     font-size: 5rem;
   }
@@ -544,21 +505,6 @@ header {
     margin: 0 auto;
     justify-content: center;
   }
-  // .cards .rows {
-  //   grid-template-columns: repeat(auto-fit, minmax(70%, 1fr));
-  // }
-
-  // .cards {
-  //   padding: 20px;
-  // }
-
-  // .cards h1 {
-  //   font-size: 34px;
-  // }
-
-  // .cards .rows input[type="submit"] {
-  //   width: 100%;
-  // }
 }
 
 // button
@@ -568,7 +514,6 @@ header {
   text-align: center;
   justify-content: center;
   margin-top: 5px;
-  // margin-left: 38vw;
 
   background-color: #f15946;
   width: 140px;
@@ -645,15 +590,6 @@ header {
     transform: rotateZ(0);
   }
 }
-
-// body {
-//   width: 90%;
-//   display: flex;
-//   background: #28df99;
-//   justify-content: center;
-//   align-items: center;
-//   height: 90vh;
-// }
 
 #btn-auto-click {
   .arrow {
